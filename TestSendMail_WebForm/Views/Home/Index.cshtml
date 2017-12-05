@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<form action="/" method="post" enctype="multipart/form-data">
+
+    <input type="file" name="files" value="" multiple />
+    <input type="submit" name="name" value="Send" />
+</form>
+
+<form action="/Home/IndexAsync" method="post" enctype="multipart/form-data">
+
+    <input type="file" name="files" value="" multiple />
+    <input type="submit" name="name" value="SendAsync" />
+</form>

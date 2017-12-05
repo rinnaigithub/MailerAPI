@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mailer", "Mailer\Mailer.csproj", "{1F36EEE7-581D-43D4-BCB5-B6D8809CF43E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSendMail_WinForm", "TestSendMail_WinForm\TestSendMail_WinForm.csproj", "{C26D97C8-11C1-4532-ACA0-DF6E4C3D6A90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSendMail_WebForm", "TestSendMail_WebForm\TestSendMail_WebForm.csproj", "{9112D4DF-71CB-4D49-9D05-67BB6738F806}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F36EEE7-581D-43D4-BCB5-B6D8809CF43E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F36EEE7-581D-43D4-BCB5-B6D8809CF43E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F36EEE7-581D-43D4-BCB5-B6D8809CF43E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F36EEE7-581D-43D4-BCB5-B6D8809CF43E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C26D97C8-11C1-4532-ACA0-DF6E4C3D6A90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C26D97C8-11C1-4532-ACA0-DF6E4C3D6A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C26D97C8-11C1-4532-ACA0-DF6E4C3D6A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C26D97C8-11C1-4532-ACA0-DF6E4C3D6A90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9112D4DF-71CB-4D49-9D05-67BB6738F806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9112D4DF-71CB-4D49-9D05-67BB6738F806}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9112D4DF-71CB-4D49-9D05-67BB6738F806}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9112D4DF-71CB-4D49-9D05-67BB6738F806}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
